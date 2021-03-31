@@ -1,0 +1,34 @@
+.grid{
+    display: grid;
+    height: 100vh;
+    grid-template-columns:
+    [header-start] 1fr  [sidebar-start] 1fr  1fr [header-end sidebar-end];
+    grid-template-rows: 
+    [header-start] 1fr [header-end sidebar-start] 1fr [sidebar-end] 1fr ;
+} 
+
+.item{
+    width: 100%;
+    height: 100%;
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+}
+
+.header{
+    background: crimson;
+    grid-area: header;
+}
+
+.main{
+    background: slateblue;
+}
+
+.aside{
+    background: tomato;
+    grid-area: sidebar;
+}
+
+.footer{
+    background: teal;
+}

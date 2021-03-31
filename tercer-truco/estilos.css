@@ -1,0 +1,29 @@
+body{
+    padding: 40px;
+}
+
+.main{
+    width: 400px;
+    height: 400px;
+    background: slateblue;
+    transform: translate(2px);
+}
+
+.modal{
+    width: 100%;
+    height: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0);
+    color: #fff;
+    font-weight: 300;
+}
+
+.title{
+    font-size: 2.5rem;
+    text-align: center;
+}

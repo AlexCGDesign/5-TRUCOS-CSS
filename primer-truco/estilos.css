@@ -1,0 +1,31 @@
+body{
+    padding: 20px 0;
+}
+
+.container{
+    width: 92%;
+    background: rgb(197, 209, 233);
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 30px;
+    padding: 30px 20px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+}
+
+.item{
+    padding: 50px 40px;
+    display: inline-block;
+}
+
+.item1{
+    background: crimson;
+    clip-path: circle(50% at 50% 50%);
+}
+
+.item2{
+    background: darkslateblue;
+    margin-left: -80px;
+}
+
+
